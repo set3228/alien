@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,900,700');
+body {
+	background: #f2f2f2;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #333;
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	color: #f85c37;
+}
+
+a:hover, a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+/* nav */
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse {
+	background-color: #2d2d2d;
+	border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: rgb(28, 189, 223);
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover {
+   background-color: rgb(19, 139, 163);
+}
+
+.navbar-inverse .navbar-brand {
+   padding-top: 0;
+   padding-bottom: 0;
+}
+
+.navbar-inverse .navbar-brand img {
+   height: 50px;
+   display: inline-block;
+   margin-right: 15px;
+}
+
+.navbar-inverse .navbar-brand span {
+   color: rgb(28, 189, 223);
+   font-size: 40px;
+   vertical-align: middle;
+}
+
+/* header */
+header {
+	background: url(../images/header-bg.png) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: scroll;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+	background-size: cover;
+}
+
+header h1{
+	margin-top: 100px;
+	color: rgb(28, 189, 223);
+	font-size: 120px;
+   font-weight: 900;
+	letter-spacing: 3px;
+}
+
+header h2{
+	color: rgb(28, 189, 223);
+   font-size: 55px;
+   font-weight: 700;
+	letter-spacing: 2px;
+   text-transform: uppercase;
+}
+
+.btn-big {
+   display: inline-block;
+   margin-top: 30px;
+   margin-bottom: 10px; 
+}
+
+.btn-big button{
+   display: inline-block;
+   color: #fff;
+   background-color: rgb(28, 189, 223);
+   border-color: rgb(28, 189, 223);
+   font-family: "Raleway";
+   text-transform: uppercase;
+   font-weight: 700;
+   border-radius: 3px;
+   font-size: 30px;
+   padding: 15px 30px;
+   margin-bottom: 0;
+   text-align: center;
+   vertical-align: middle;
+   cursor: pointer;
+   user-select: none;
+   background-image: none;
+   border: 1px solid transparent;
+   outline: 0;
+   min-width: 220px;
+}
+
+.btn-big button:hover {
+   background-color: rgb(19, 139, 163);
+}
+
+/* Section About */
+.about {
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.about h4{
+   font-size: 25px;
+   color: rgb(233, 182, 16);
+}
+
+/* Section Gameplay */
+.gameplay {
+	background: #e0e0e0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+.gameplay h2, .screenshots h2 {
+   font-size: 40px;
+   margin-bottom: 100px;
+   text-transform: uppercase;
+}
+
+.gameplay .row {
+   margin-bottom: 100px;
+}
+
+.gameplay .row img {
+   height: 230px;
+   border: 4px solid rgb(28, 189, 223);
+}
+
+.gameplay__description h3 {
+   text-transform: uppercase;
+   font-size: 30px;
+   font-weight: bold
+}
+
+.gameplay__description h4 {
+   font-size: 22px;
+   font-weight: bold;
+}
+
+.gameplay__description h4 i {
+   margin-right: 15px;
+}
+
+/* Section Screenshots */ 
+.screenshots {
+   text-align: center;
+   background: #ffffee;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.screenshots img {
+   width: 80%;
+   margin: 30px 0;
+}
+
+/* Section Play */
+.play {
+   padding-top: 150px;
+   padding-bottom: 150px;
+   text-align: center;
+}
+
+.play p {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+/* footer */
+footer {
+   font-size: 20px;
+   text-align: center;
+   color: white;
+   background-color: rgb(28, 189, 223);
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+/* styles for game page */
+body.game {
+   background: rgb(58, 56, 56);
+}
+
+body.game {
+   margin: 0 auto;
+   width: 1280px;
+   height: 700px;
+   background: #49C3D3;
+}

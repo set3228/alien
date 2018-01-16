@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="shortcut icon" href="images/logo.png">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+   <link rel="stylesheet" href="styles/style.css">
+
+   <!-- jQuery & Bootstrap JS -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" defer></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" defer></script>
+   <script src="scripts/script.js" async></script>
+   <title>Alien</title>
+</head>
+<body id="home">
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">
+               <img src="images/logo.png" alt="Alien">
+               <span>Alien</span>
+            </a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#gameplay">Gameplay</a></li>
+               <li><a href="#screenshots">Screenshots</a></li>
+               <li><a href="#play">Play</a></li>
+				</ul>
+			</div>
+		</div>	
+   </nav>
+   <header>
+      <div class="container">
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h1>ALIEN</h1>
+               <h2>Explore a new world</h2>
+               <a href="game.html" class="btn-big">
+                  <button>Play!</button>
+               </a>
+				</div>
+			</div>
+		</div>
+   </header>
+   <section id="about" class="container about">
+      <div class="row centered">
+			<br><br>
+			<div class="col-lg-3">
+				<i class="fa fa-heart fa-2x"></i>
+				<h4>Genre</h4>
+				<p>Alien is a simple platformer where you can run, jump and kill everyone</p>
+			</div>
+			<div class="col-lg-3">
+				<i class="fa fa-cogs fa-2x"></i>
+				<h4>Technologies</h4>
+				<p>The game was built using JavaScript, Phaser, Webpack and Kostyli</p>
+			</div>
+			<div class="col-lg-3">
+				<i class="fa fa-laptop fa-2x"></i>
+				<h4>Resolution</h4>
+				<p>Resolution of the game screen is 1280 x 700, so if your device does not comply with this resolution, Alien will be sad</p>
+         </div>
+         <div class="col-lg-3">
+            <i class="fa fa-trophy fa-2x"></i>
+            <h4>Goal</h4>
+            <p>Collect stars, kill enemies and then reach finish</p>
+         </div>
+		</div>
+		<br><br>
+   </section>
+   <section id="gameplay" class="gameplay">
+      <div class="container">
+			<h2>GAMEPLAY</h2>
+         <br>
+         <div class="row">
+            <div class="col-lg-4 col-lg-offset-1">
+               <img src="images/gameplay_jump.png" alt="jump" class="img-circle">
+            </div>
+            <div class="gameplay__description col-lg-5 text-left">
+               <h3>jump</h3>
+               <h4><i class="fa fa-arrow-up fa-2x"></i> Up arrow</h4>
+               <p>Just press the up arrow on your keyboard to make Alien soar up like a bird</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-4 col-lg-offset-1">
+               <img src="images/gameplay_right.png" alt="to right" class="img-circle">
+            </div>
+            <div class="gameplay__description col-lg-5 text-left ">
+               <h3>right</h3>
+               <h4><i class="fa fa-arrow-right fa-2x"></i> Right arrow</h4>
+               <p>Just press the right arrow on your keyboard to make Alien just run to the right</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-4 col-lg-offset-1">
+               <img src="images/gameplay_left.png" alt="to left" class="img-circle">
+            </div>
+            <div class="gameplay__description col-lg-5 text-left">
+               <h3>left</h3>
+               <h4><i class="fa fa-arrow-left fa-2x"></i> Left arrow</h4>
+               <p>Just press the up arrow on your keyboard to make Alien just run to the left</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-4 col-lg-offset-1">
+               <img src="images/gameplay_kill.png" alt="kill" class="img-circle">
+            </div>
+            <div class="gameplay__description col-lg-5 text-left">
+               <h3>kill enemy</h3>
+               <p>Jump over the enemy to kill him and achive some points</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-4 col-lg-offset-1">
+               <img src="images/gameplay_collect.png" alt="collect" class="img-circle">
+            </div>
+            <div class="gameplay__description col-lg-5 text-left">
+               <h3>Collect Stars</h3>
+               <p>Collect stars to set a record of point</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-4 col-lg-offset-1">
+               <img src="images/gameplay_hurt.png" alt="hurt" class="img-circle">
+            </div>
+            <div class="gameplay__description col-lg-5 text-left">
+               <h3>Hurt</h3>
+               <p>Be careful, enemies can hurt you and even kill you. You have only three health points</p>
+            </div>
+         </div>     
+		</div>
+   </section>
+   <section id="screenshots" class="screenshots">
+      <div class="container">
+         <h2>screenshots</h2>
+         <img src="images/screenshot_1.png" alt="screenshot_1">
+         <img src="images/screenshot_2.png" alt="screenshot_2">
+         <img src="images/screenshot_3.png" alt="screenshot_3">
+         <img src="images/screenshot_4.png" alt="screenshot_4">
+         <img src="images/screenshot_5.png" alt="screenshot_5">
+         <img src="images/screenshot_6.png" alt="screenshot_6">
+      </div>
+   </section>
+   <section id="play" class="play">
+      <div class="container">
+         <p>Now you are ready!!!</p>
+         <p>Let's start</p>
+         <a href="game.html" class="btn-big">
+            <button>Play!</button>
+         </a>
+      </div>
+   </section>
+   <footer>
+      <div class="container">
+         awesomeGamesInc 2017
+      </div>
+   </footer>
+</body>
+</html>

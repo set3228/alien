@@ -1,0 +1,10 @@
+body {
+   background: rgb(58, 56, 56);
+}
+
+div {
+   margin: 0 auto;
+   width: 1280px;
+   height: 700px;
+   background: #49C3D3;
+}
